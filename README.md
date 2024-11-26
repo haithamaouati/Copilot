@@ -57,6 +57,13 @@ Examples:
 ./copilot.sh -u octocat -f user_data.json
 ```
 
+## Configuration
+
+If you frequently use a personal access token, you can preload it by creating a token file in the script's directory. The script will automatically detect and use it:
+```bash
+echo "ghp_12345abcdef" > token
+```
+
 ## Dependencies
 
 The script requires the following dependencies:
@@ -67,13 +74,6 @@ The script requires the following dependencies:
 
 Make sure to install these dependencies before running the script.
 
-## Configuration
-
-If you frequently use a personal access token, you can preload it by creating a token file in the script's directory. The script will automatically detect and use it:
-```bash
-echo "ghp_12345abcdef" > token
-```
-
 ## Author
 
 Made with :coffee: by **Haitham Aouati**
@@ -81,4 +81,4 @@ Made with :coffee: by **Haitham Aouati**
 
 ## License
 
-Loki is licensed under [Unlicense license](LICENSE).
+Copilot is licensed under [Unlicense license](LICENSE).
