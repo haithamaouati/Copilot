@@ -74,22 +74,6 @@ If you frequently use a personal access token, you can preload it by creating a 
 echo "ghp_12345abcdef" > token
 ```
 
-## Notes
-
-> [!NOTE]
-> Rate Limits: Unauthenticated requests are limited to 60 requests per hour. Use a personal access token to increase the limit to 5,000 requests per hour.
-
-##### Error Handling:
-
-> [!WARNING]
-> 403: Rate limit exceeded. Use a token to continue.
-
-> [!WARNING]
-> 404: User not found.
-
-> [!WARNING]
-> Other HTTP codes: Displayed with details.
-
 ## Author
 
 Made with :coffee: by **Haitham Aouati**
